@@ -1,0 +1,124 @@
+{
+ "graph_lock": {
+  "nodes": {
+   "0": {
+    "options": "jbig:build_executables=True\njbig:shared=False\nlibjpeg:shared=False\nlibpng:api_prefix=None\nlibpng:shared=False\nlibtiff:cxx=True\nlibtiff:jbig=True\nlibtiff:jpeg=libjpeg\nlibtiff:lzma=True\nlibtiff:shared=False\nlibtiff:zlib=True\nlibwebp:near_lossless=True\nlibwebp:shared=False\nlibwebp:swap_16bit_csp=False\nlibwebp:with_simd=True\nopencv:carotene=False\nopencv:contrib=False\nopencv:cuda=False\nopencv:dc1394=True\nopencv:eigen=True\nopencv:ffmpeg=False\nopencv:gstreamer=False\nopencv:jpeg=True\nopencv:jpeg2000=openjpeg\nopencv:jpegturbo=False\nopencv:lapack=False\nopencv:nonfree=False\nopencv:openblas=False\nopencv:openexr=True\nopencv:parallel=None\nopencv:png=True\nopencv:protobuf=True\nopencv:quirc=True\nopencv:shared=False\nopencv:tiff=True\nopencv:webp=True\nopenexr:namespace_versioning=True\nopenexr:shared=False\nopenjpeg:build_codec=True\nopenjpeg:shared=False\nprotobuf:lite=False\nprotobuf:shared=False\nprotobuf:with_zlib=False\nxz_utils:shared=False\nzlib:minizip=False\nzlib:shared=False",
+    "requires": [
+     "1"
+    ],
+    "path": "..\\conanfile.txt",
+    "context": "host"
+   },
+   "1": {
+    "ref": "opencv/4.3.0@conan/stable",
+    "options": "carotene=False\ncontrib=False\ncuda=False\ndc1394=True\neigen=True\nffmpeg=False\ngstreamer=False\njpeg=True\njpeg2000=openjpeg\njpegturbo=False\nlapack=False\nnonfree=False\nopenblas=False\nopenexr=True\nparallel=None\npng=True\nprotobuf=True\nquirc=True\nshared=False\ntiff=True\nwebp=True\njbig:build_executables=True\njbig:shared=False\nlibjpeg:shared=False\nlibpng:api_prefix=None\nlibpng:shared=False\nlibtiff:cxx=True\nlibtiff:jbig=True\nlibtiff:jpeg=libjpeg\nlibtiff:lzma=True\nlibtiff:shared=False\nlibtiff:zlib=True\nlibwebp:near_lossless=True\nlibwebp:shared=False\nlibwebp:swap_16bit_csp=False\nlibwebp:with_simd=True\nopenexr:namespace_versioning=True\nopenexr:shared=False\nopenjpeg:build_codec=True\nopenjpeg:shared=False\nprotobuf:lite=False\nprotobuf:shared=False\nprotobuf:with_zlib=False\nxz_utils:shared=False\nzlib:minizip=False\nzlib:shared=False",
+    "package_id": "d9eb70c7627498d9a339092c4d4e1f4f091c7ea1",
+    "prev": "0",
+    "requires": [
+     "2",
+     "3",
+     "4",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12"
+    ],
+    "context": "host"
+   },
+   "2": {
+    "ref": "zlib/1.2.11",
+    "options": "minizip=False\nshared=False",
+    "package_id": "3fb49604f9c2f729b85ba3115852006824e72cab",
+    "prev": "0",
+    "context": "host"
+   },
+   "3": {
+    "ref": "libjpeg/9d",
+    "options": "shared=False",
+    "package_id": "3fb49604f9c2f729b85ba3115852006824e72cab",
+    "prev": "0",
+    "context": "host"
+   },
+   "4": {
+    "ref": "libtiff/4.0.9",
+    "options": "cxx=True\njbig=True\njpeg=libjpeg\nlzma=True\nshared=False\nzlib=True\njbig:build_executables=True\njbig:shared=False\nlibjpeg:shared=False\nxz_utils:shared=False\nzlib:minizip=False\nzlib:shared=False",
+    "package_id": "f684af43121a304ac158f5e7f3bfe3dfe3c441c3",
+    "prev": "0",
+    "requires": [
+     "2",
+     "5",
+     "3",
+     "6"
+    ],
+    "context": "host"
+   },
+   "5": {
+    "ref": "xz_utils/5.2.5",
+    "options": "shared=False",
+    "package_id": "3fb49604f9c2f729b85ba3115852006824e72cab",
+    "prev": "0",
+    "context": "host"
+   },
+   "6": {
+    "ref": "jbig/20160605",
+    "options": "build_executables=True\nshared=False",
+    "package_id": "1c06f8aa5b65435590877732bd94377a1ed95260",
+    "prev": "0",
+    "context": "host"
+   },
+   "7": {
+    "ref": "libwebp/1.0.3",
+    "options": "near_lossless=True\nshared=False\nswap_16bit_csp=False\nwith_simd=True",
+    "package_id": "638042d3fd356128c913f5e725646a0c2af264c7",
+    "prev": "0",
+    "context": "host"
+   },
+   "8": {
+    "ref": "libpng/1.6.37",
+    "options": "api_prefix=None\nshared=False\nzlib:minizip=False\nzlib:shared=False",
+    "package_id": "d140711d95cc16a85766a8fc3a551dfafe84cf63",
+    "prev": "0",
+    "requires": [
+     "2"
+    ],
+    "context": "host"
+   },
+   "9": {
+    "ref": "openjpeg/2.3.1",
+    "options": "build_codec=True\nshared=False",
+    "package_id": "f902322b0476f1b3a90d3d210ccc450cb5f4dcc0",
+    "prev": "0",
+    "context": "host"
+   },
+   "10": {
+    "ref": "openexr/2.3.0",
+    "options": "namespace_versioning=True\nshared=False\nzlib:minizip=False\nzlib:shared=False",
+    "package_id": "0e87d6129ce02d60d7348d0c7b3d4af3e22b026a",
+    "prev": "0",
+    "requires": [
+     "2"
+    ],
+    "context": "host"
+   },
+   "11": {
+    "ref": "protobuf/3.5.2@bincrafters/stable",
+    "options": "lite=False\nshared=False\nwith_zlib=False",
+    "package_id": "3fb49604f9c2f729b85ba3115852006824e72cab",
+    "prev": "0",
+    "context": "host"
+   },
+   "12": {
+    "ref": "eigen/3.3.7",
+    "options": "",
+    "package_id": "5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9",
+    "prev": "0",
+    "context": "host"
+   }
+  },
+  "revisions_enabled": false
+ },
+ "version": "0.4",
+ "profile_host": "[settings]\narch=x86_64\narch_build=x86_64\nbuild_type=Release\ncompiler=Visual Studio\ncompiler.runtime=MD\ncompiler.version=16\nos=Windows\nos_build=Windows\n[options]\n[build_requires]\n[env]\n"
+}
